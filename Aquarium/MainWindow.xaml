@@ -1,0 +1,13 @@
+﻿<Window x:Class="Aquarium.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="641" Width="800" Closing="Window_Closing" ResizeMode="CanMinimize" Background="#FF00C4FF">
+    <Grid>
+        <Canvas Height="600" HorizontalAlignment="Left" Margin="0,41,0,0" Name="aquarium" VerticalAlignment="Top" Width="800">
+            <Image Canvas.Left="0" Canvas.Top="0" Height="600" Name="backgroundImage" Stretch="Fill" Width="800" />
+        </Canvas>
+        <RadioButton Content="background 1" Height="16" HorizontalAlignment="Left" Margin="20,12,0,0" Name="bg1ImageRadio" VerticalAlignment="Top" Click="bg1RadioButton_Checked" />
+        <RadioButton Content="background 2" Height="16" HorizontalAlignment="Left" Margin="140,12,0,0" Name="bg2ImageRadio" VerticalAlignment="Top" Click="bg2RadioButton_Checked" />
+        <RadioButton Content="background 3" Height="16" HorizontalAlignment="Left" Margin="260,12,0,0" Name="bg3ImageRadio" VerticalAlignment="Top" Click="bg3RadioButton_Checked" />
+    </Grid>
+</Window>
